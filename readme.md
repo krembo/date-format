@@ -28,9 +28,12 @@ d.format('d-m-Y'); // 18-09-2016
 
 Format characters were taken from PHP date.
 
-+ **d** - day of the month, 2 digits with leading zero (01 - 31)
-+ **m** - month of the year, numerical - 2 digits with leading zero (01 - 12)
++ **d** - day of the month, 2 digits with leading zeros (01 - 31)
++ **m** - month of the year, numerical - 2 digits with leading zeros (01 - 12)
 + **M** - month in 3-letter textual representation (English only) - (Jan - Dec)
 + **F** - month in full textual representation (English only) - (January - December)
 + **y** - last 2 digits of year (16)
 + **Y** - full four digits year (2016)
++ **H** - 24-hour format with leading zeros (12)
++ **i** - minutes with leading zeros (05)
++ **s** - seconds with leading zeros (28)
