@@ -1,4 +1,4 @@
-(function(self){
+(function(){
 	'use strict';
 	var dp = Date.prototype;
 	
@@ -16,4 +16,4 @@
 				.replace('F', months[m]);
 	};
 	
-})(self !== undefined ? self : this);
+})();
