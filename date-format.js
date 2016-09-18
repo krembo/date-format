@@ -11,6 +11,7 @@
 		return str
 				.replace('d', d)
 				.replace('m', ('0' + (m + 1)).slice(0,2))
+				.replace('y', parseInt(('' + y).slice(2)), 10)
 				.replace('Y', y)
 				.replace('M', months[m].slice(0,3))
 				.replace('F', months[m]);

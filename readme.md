@@ -32,4 +32,5 @@ Format characters were taken from PHP date.
 + **m** - month of the year, numerical - 2 digits with leading zero (01 - 12)
 + **M** - month in 3-letter textual representation (English only) - (Jan - Dec)
 + **F** - month in full textual representation (English only) - (January - December)
++ **y** - last 2 digits of year (16)
 + **Y** - full four digits year (2016)
